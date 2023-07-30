@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header,footer{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+header{
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+main{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+}
+.container .p{
+    border: solid black;
+    cursor: pointer;
+}
